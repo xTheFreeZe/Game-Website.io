@@ -84,7 +84,6 @@ html {
     padding: 10px 20px;
     cursor: pointer;
     margin: 10px;
-    transition: 0.8s;
     overflow: hidden;
     font-family: Lato;
     letter-spacing: 10px;
@@ -142,7 +141,6 @@ html {
     padding: 10px 20px;
     cursor: pointer;
     margin: 10px;
-    transition: 0.8s;
     overflow: hidden;
     font-family: Lato;
     letter-spacing: 10px;

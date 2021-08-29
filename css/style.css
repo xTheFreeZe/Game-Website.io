@@ -18,6 +18,10 @@ html {
         display: none;
     }
 
+    .star3 {
+        display: none;
+    }
+
     .bottomright {
         visibility: hidden;
     }
@@ -96,51 +100,68 @@ html {
     }
 }
 
-/*
+.star1 {
 
-.pointer {
+    /* First star, bottom left */
+
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 85%;
+    left: 13%;
     transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background: #45495f;
-    border: 1px solid #45495f;
-    border-radius: 50%;
-    pointer-events: none;
 
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 5px #fff,
+        /* inner white */
+        0 0 100px 10px #f0f,
+        /* middle magenta */
+        0 0 140px 25px #0ff;
+    /* outer cyan */
 }
 
+.star2 {
 
-.pointer1 {
-    transition: 0.08s;
-    width: 37px;
-    height: 37px;
-    visibility: visible;
+    /* Second star, bottom right */
+
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 5px #fff,
+        /* inner white */
+        0 0 100px 10px #f0f,
+        /* middle magenta */
+        0 0 140px 25px #0ff;
+    /* outer cyan */
 }
 
-.pointer2 {
-    transition: 0.12s;
-    width: 33px;
-    height: 33px;
-    visibility: visible;
-}
+.star3 {
 
-.pointer3 {
-    transition: 0.16s;
-    width: 30px;
-    height: 30px;
-    visibility: visible;
-}
+    /* Second star, top left */
 
-.pointer4 {
-    transition: 0.20s;
-    width: 27px;
-    height: 27px;
-    visibility: visible;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 5px #fff,
+        /* inner white */
+        0 0 100px 10px #f0f,
+        /* middle magenta */
+        0 0 140px 25px #0ff;
+    /* outer cyan */
 }
-*/
 
 .btn {
 
@@ -157,8 +178,6 @@ html {
     margin: 10px;
     transition: 0.8s;
     overflow: hidden;
-
-
 
 }
 
